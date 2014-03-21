@@ -1,0 +1,144 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="keywords" content="">
+    <meta name="description" charset="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/libraries/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <link href="js/jquery.bxslider.css" rel="stylesheet">
+    <link href="js/bxslider.style.css" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+            $('.carousel').bxSlider({
+                pagerCustom: '#bx-pager'
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div id="wrapper">
+
+<!----- BEGIN HEADER   ----->
+    <div id="header">
+        <div class="logo"><a href=" javascript: void(0)"><img src="img/logo.png" alt="#"></a></div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="javascript: void(0)">join free now</a></li>
+                <li class="menu-active"><a href="javascript: void(0)">search profile</a></li>
+                <li><a href="javascript: void(0)">faq</a></li>
+                <li><a href="javascript: void(0)">contact us</a></li>
+                <li><a href="javascript: void(0)">girls online</a></li>
+                <li><a href="javascript: void(0)">news</a></li>
+            </ul>
+        </div>
+        <div id="language-site">
+            <h2>Language site:</h2>
+            <div class="language-button">
+                <button class="en active">ENG</button>
+                <button class="rus">RUS</button>
+            </div>
+        </div>
+    </div>
+<!------ END HEADER ------->
+
+<!------ BEGIN MAIN CONTENT ------->
+    <div id="main-content">
+        <div id="slider">
+            <ul class="carousel">
+                <li><img src="img/main-slaider.png"></li>
+                <li><img src="img/main-slaider.png"></li>
+                <li><img src="img/main-slaider.png"></li>
+                <li><img src="img/main-slaider.png"></li>
+                <li><img src="img/main-slaider.png"></li>
+            </ul>
+        </div>
+        <div id="bx-pager">
+            <a data-slide-index="0" href=""><img src="img/main-slaider-mini.png" /></a>
+            <a data-slide-index="1" href=""><img src="img/main-slaider-mini.png" /></a>
+            <a data-slide-index="2" href=""><img src="img/main-slaider-mini.png" /></a>
+            <a data-slide-index="3" href=""><img src="img/main-slaider-mini.png" /></a>
+            <a data-slide-index="4" href=""><img src="img/main-slaider-mini.png" /></a>
+
+        </div>
+        <div class="registration-enter">
+            <button class="button-registration"><p>Registration</p></button>
+            <button class="enter-registration active"><p>Enter</p></button>
+            <form class="registration-field">
+                <div class="row">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" class="txt" placeholder="Viktoria" required>
+                </div>
+
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" class="email" class="txt" placeholder="Viktoria@gmail.com" required>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li><input type="checkbox" id="check" checked><label for="check">I agree with</label></li>
+                        <li><a href="javascript: void(0)">License agreement</a></li>
+                    </ul>
+                </div>
+            </form>
+            <button class="facebook"><p>Login with Facebook</p></button>
+            <div class="border-register">
+            <button class="register"><p>Register</p></button>
+            </div>
+        </div>
+        <div class="registration">
+            <button class="button-registration active"><p>Registration</p></button>
+            <button class="enter-registration"><p>Enter</p></button>
+            <form class="registration-field">
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="" class="email" class="txt" placeholder="Viktoria@gmail.com" required>
+                </div>
+
+                <div class="row">
+                    <label for="password">Password:</label>
+                    <input type="email" name="email" id="password" class="txt" placeholder="Your password" required>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li><input type="checkbox" id="check-igree" checked><label for="check">I agree with</label></li>
+                    </ul>
+                </div>
+            </form>
+            <button class="facebook"><p>Login with Facebook</p></button>
+            <div class="border-register">
+                <button class="register"><p>Register</p></button>
+            </div>
+        </div>
+        <div class="most-popular-ladies">
+            <div class="name-content">
+                <h1><p>Most popular ladies</p></h1> 
+                <img src="img/top-button.png" alt="#">
+            </div>
+            <ul class="popular-ladies">
+                <li class="ladies">
+                    <div class="ladies-image">
+                        <img src="img/dream-girl.png" alt="#">
+                        <div class="webcam-icon"></div>
+                        <div class="new-icon"></div>
+                        <div class="online-icon"></div>
+                    </div>
+                    <div class="ladies-info">
+                        <div class="name-ladies">Christina</div>
+                        <div class="age-ladies">22 years</div>
+                        <div class="rating-ladies">4.8</div>
+                    </div>
+                    <div class="communications-icon">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</body>
