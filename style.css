@@ -563,28 +563,29 @@ body {
 .most-popular-ladies {
     margin-top: 40px;
 }
-.name-content {
+.content-header {
     overflow: hidden;
 }
-.name-content h1 {
+.content-header h1 {
     font-family: pt_sans_narrowbold;
     font-size: 26px;
     float: left;
+    height: 30px;
     position: relative;
     color: #00bca5;
     padding: 5px 0 0 15px;
 }
-.name-content h1:before {
+.content-header h1:before {
     content: ' ';
     display: block;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAhCAIAAACEDBYcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB1JREFUeNpidDq2mQEHYGLADUblRuVG5WgrBxBgALYfAf0tGgISAAAAAElFTkSuQmCC);
     position: absolute;
     height: 33px;
     width: 9px;
-    right: 96%;
+    left: 0;
     top: 0;
 }
-.name-content img {
+.content-header img {
     margin: 4px 0 0 30px;
 }
 .popular-ladies {
@@ -1177,4 +1178,31 @@ body {
     border: 1px solid #b3b3b3;
     text-shadow: 0 1px 0 #fff;
     cursor: pointer;
+}
+.content-story {
+    overflow: hidden;
+    width: 445px;
+    height: 375px;
+    margin: 30px 0 0 30px;
+    float: left;
+}
+.content-story img {
+    padding: 5px;
+    border: 1px solid #c8d8df;
+    float: left;
+}
+.content-story h2 {
+    font-family: pt_sans_narrowbold;
+    font-size: 24px;
+    color: #3abcac;
+    padding: 12px 0 10px 120px;
+}
+.content-story h3 {
+    font-family: pt_sansitalic;
+    margin-left: 120px;
+    padding-top: 5px;
+}
+.content-story p {
+    margin-top: 30px;
+    font-family: pt_sansregular;
 }
