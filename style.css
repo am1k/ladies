@@ -1481,7 +1481,7 @@ float: left;
 }
 .registration-for-girl {
     float: left;
-    margin: 30px 0 10px 15px;
+    margin: 30px 0 5px 15px;
 }
 .pay-icons {
     overflow: hidden;
@@ -1499,7 +1499,6 @@ float: left;
 #footer .rules {
     float: left;
     margin-left: 18px;
-    margin-top: 5px;
 }
 #footer .rules ul {
     margin: 0;
