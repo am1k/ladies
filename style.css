@@ -582,7 +582,7 @@ body {
     float: left;
 }
 .ladies {
-    width: 155px;
+    width: 154px;
     height: 280px;
     border: 1px solid #c8d8df;
     border-radius: 3px;
@@ -603,7 +603,9 @@ body {
     z-index: 101;
 }
 .content-ladies:hover {
-    padding: 1px;
+    padding: 2px;
+    margin: -2px;
+    width: 148px;
 }
 .helper {
     width: 100%;
@@ -613,6 +615,7 @@ body {
 }
 .ladies-image {
     overflow: hidden;
+    width: 148px;
 }
 .webcam-icon {
     background: url("img/lady-members-web-cam.png");
@@ -643,6 +646,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    width: 147px;
 }
 .age-ladies {
     float: left;
@@ -662,7 +666,7 @@ body {
 }
 .ladies-info {
     overflow: hidden;
-    width: 145px;
+    width: 147px;
     margin: 0 auto;
     border-bottom: 1px solid #c8d8df;
     height: 55px;
@@ -1120,7 +1124,6 @@ body {
 }
 .dreams-girls {
     overflow: hidden;
-    margin-top: 25px;
 }
 .about-girls {
     width: 490px;
@@ -1386,7 +1389,6 @@ float: left;
 }
 .love-story {
     overflow: hidden;
-    margin-top: 70px;
 }
 .content-story {
     overflow: hidden;
