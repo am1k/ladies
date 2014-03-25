@@ -141,7 +141,7 @@ body {
     font-family: pt_sansbold;
     font-weight: bold;
     text-shadow: 0 1px 0 #60f7ef;
-    padding: 1px 10px 1px;
+    padding: 0 10px 0;
     font-size: 11px;
     cursor: pointer;
     box-shadow: -1px 1px 1px 0;
@@ -181,7 +181,7 @@ body {
     background-repeat: repeat-x;
     font-weight: bold;
     text-shadow: 0 1px 0 #60f7ef;
-    padding: 1px 10px 1px;
+    padding: 0 10px 0;
     font-size: 11px;
     cursor: pointer;
     box-shadow: -1px 1px 1px 0;
@@ -238,7 +238,6 @@ body {
 }
 .enter-registration.active:hover  {
     padding-left: 15px;
-    font-weight: bold;
     font-size: 19px;
     padding: 1px 12px 1px 25px;
     font-family: pt_sans_narrowbold;
@@ -280,7 +279,7 @@ body {
     background-repeat: no-repeat;
     background-position: 95% 50%;
     padding-left: 15px;
-    font-family: PTsans;
+    font-family: pt_sansregular;
     font-style: italic;
     margin-top: 10px;
 }
@@ -291,7 +290,7 @@ body {
     background-position: 95% 50%;
     height: 30px;
     padding-left: 15px;
-    font-family: PTsans;
+    font-family: pt_sansregular;
     font-style: italic;
     margin-top: 10px;
 }
@@ -421,7 +420,6 @@ body {
 }
 .enter-registration  {
     padding-left: 15px;
-    font-weight: bold;
     font-size: 19px;
     font-family: pt_sans_narrowbold;
     text-shadow: 0 1px 0 #fff;
@@ -430,7 +428,6 @@ body {
 }
 .enter-registration:hover {
     padding-left: 15px;
-    font-weight: bold;
     font-size: 19px;
     font-family: pt_sans_narrowbold;
     text-shadow: 0 -1px 0 #fff;
@@ -461,7 +458,7 @@ body {
     background-repeat: no-repeat;
     background-position: 95% 50%;
     padding-left: 15px;
-    font-family: PTsans;
+    font-family: pt_sansregular;
     font-style: italic;
     margin-top: 10px;
 }
@@ -472,7 +469,7 @@ body {
     background-position: 95% 50%;
     height: 30px;
     padding-left: 15px;
-    font-family: PTsans;
+    font-family: pt_sansregular;
     font-style: italic;
     margin-top: 10px;
 }
@@ -505,7 +502,6 @@ body {
     padding-left: 25px;
     color: #fff;
     font-family: pt_sans_narrowbold;
-    font-weight: bold;
     text-shadow: 0 1px 0 #2f4783;
 }
 .reg-facebook:before {
@@ -534,7 +530,6 @@ body {
     height: 36px;
     border: 1px solid #3abcac;
     font-family: pt_sans_narrowbold;
-    font-weight: bold;
     font-size: 20px;
     text-shadow: 0 1px 0 #49f3e8;
     box-shadow: 0 2px 1px 0 #748e90;
