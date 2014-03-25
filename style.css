@@ -240,7 +240,7 @@ body {
 .enter-registration.active:hover  {
     padding-left: 15px;
     font-size: 19px;
-    padding: 1px 12px 1px 25px;
+    padding: 0 12px 0 25px;
     font-family: pt_sans_narrowbold;
     text-shadow: 0 -1px 0 #e1e2e3;
     border: 1px solid #c8c3c3;
