@@ -591,7 +591,8 @@ body {
     vertical-align: top;
     box-sizing: border-box;
     margin-bottom: 10px;
-    position: relative
+    position: relative;
+    margin-right: 8px;
 }
 .content-ladies {
     padding: 3px;
