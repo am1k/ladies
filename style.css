@@ -579,7 +579,6 @@ body {
 .popular-ladies {
     width: 835px;
     margin: 20px 0 0 10px;
-    text-align: justify;
     float: left;
 }
 .ladies {
@@ -595,12 +594,15 @@ body {
 }
 .content-ladies {
     padding: 3px;
+    background: #fff;
 }
-.ladies:hover {
+.content-ladies:hover {
     border: 3px solid #c8d8df;
     height: 320px;
+    position: absolute;
+    z-index: 101;
 }
-.ladies:hover .content-ladies {
+.content-ladies:hover {
     padding: 1px;
 }
 .helper {
@@ -845,7 +847,7 @@ body {
     z-index: 101;
 }
 .birthday-icon-hover p {
-    width: 74px;
+    width: 80px;
 }
 .birthday-icon-hover a {
     padding-left: 15px;
@@ -973,7 +975,7 @@ body {
 .sent-message:hover .sent-message-hover {
     display: block;
 }
-.ladies:hover .panel-hover {
+.content-ladies:hover .panel-hover {
     display: block;
 }
 .quick-search {
