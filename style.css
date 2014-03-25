@@ -960,7 +960,7 @@ body {
     z-index: 101;
 }
 .sent-message-hover p {
-    width: 70px;
+    width: 75px;
     text-decoration: underline;
 }
 .sent-message-hover:before {
