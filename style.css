@@ -578,7 +578,7 @@ body {
     margin: 4px 0 0 30px;
 }
 .popular-ladies {
-    width: 835px;
+    width: 850px;
     margin: 20px 0 0 10px;
     float: left;
 }
@@ -592,7 +592,7 @@ body {
     box-sizing: border-box;
     margin-bottom: 10px;
     position: relative;
-    margin-right: 8px;
+    margin-right: 11px;
 }
 .content-ladies {
     padding: 3px;
@@ -988,7 +988,7 @@ body {
     float: left;
     width: 150px;
     height: 284px;
-    margin: 15px 0 0 25px;
+    margin: 15px 0 0 10px;
 }
 .quick-search h1 {
     font-family: pt_sans_narrowbold;
@@ -1063,7 +1063,7 @@ body {
 }
 .desire-button {
     margin-top: 5px;
-    padding: 5px;
+    padding: 5px 8px;
     background-color: #c0cdd4;
     border: 1px solid #c0cdd4;
     float: left;
@@ -1319,7 +1319,7 @@ body {
     width: 145px;
     height: 565px;
     overflow: hidden;
-    margin: -30px 0 0 20px;
+    margin: -30px 0 0 10px;
 }
 .testmonials h1 {
     font-family: pt_sans_narrowbold;
